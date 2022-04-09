@@ -3,4 +3,4 @@
 </p>
 <h1 align="center">Laravel - Basic Routing</h1>
 <p align="center">Basic routing with Laravel built-in system. Made for school assignment: "Projeto Laravel: Rotas".</p>
-<img src="./routes-laravel.gif" />
+<img style="border: 1px solid #ddd;" src="./routes-laravel.gif" />
