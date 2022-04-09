@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+:root {
+    --link-color-normal: #2563eb;
+    --link-color-hover: #1d4ed8;
+}
+
+body {
+    padding: 1rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.bigger-text {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+a {
+    color: var(--link-color-normal);
+    text-decoration: none;
+    font-size: inherit;
+}
+
+a:hover {
+    color: var(--link-color-hover);
+    text-decoration: underline;
+}
